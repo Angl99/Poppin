@@ -15,7 +15,7 @@ export default function Home() {
         if (!user) {
             const timer = setTimeout(() => {
                 setShowPopup(true);
-            }, 5000); // 5000 milliseconds = 5 seconds
+            }, 5000); 
 
             return () => clearTimeout(timer);
         }
